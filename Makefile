@@ -19,4 +19,4 @@ serve:
 	jekyll serve --config _config.yml,_config-dev.yml --incremental
 
 build:
-  jekyll build
+	jekyll build
