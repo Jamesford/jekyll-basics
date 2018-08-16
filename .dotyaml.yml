@@ -1,0 +1,18 @@
+---
+# The env vars will be used for the commands
+envs:
+  MY_ENV: value
+  MY_ENV2: value
+
+# commands to run
+commands: 
+  - make build
+
+destination: _site
+
+# secure access will be used as htpasswd
+# TODO: consider moving the secret keys / password away from the file
+access:
+  # only support password by default
+  - type: password
+    value: "wcraft:wcraft10179"
